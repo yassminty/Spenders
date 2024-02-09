@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name="viewport" content="width=device-width">
+        <title>Spenders</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">    
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                <img src="images/SPENDERS.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuThings">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="Images/cart icon.png" width="30px" height="30px">
+            <img src="Images/hamburger-menu.png" class="menu" onclick="menutoggle()">
+            </div>
+        </div>
+  <div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="Images/SPENDERS.png" width="100%">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span>Login</span>
+                        <span>Register</span>
+                    </div>
+                    <form>
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot Password</a>
+                    </form>
+
+                    <form>
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <input type="birthday" placeholder="Birthdate">
+                        <button type="submit" class="btn">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!--- footer------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="images/SPENDERS.png">
+                    <p> Let's have some fun. Buy some clothes while you're still young</p>
+                </div>
+                <div class="footer-col-2">
+                    <h2>Follow us on social media</h2>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Twitter/X</li>
+                        <li>Facebook</li>
+                        <li>Telegram</li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <h2>Some links to help you out</h2>
+                    <ul>
+                        <li>Return Policy</li>
+                        <li>Delivery</li>
+                        <li>Terms & Conditions</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Spenders Shoppes by Iszreen & Yasmin</p>
+        </div>
+    </div>
+    <script>
+        var MenuThings= document.getElementById("MenuThings");
+        MenuThings.style.maxHeight = "0px";
+        function menutoggle(){
+            if (MenuThings.style.maxHeight = "0px"){
+                MenuThings.style.maxHeight = "200px";
+            }
+            else{
+                MenuThings.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+</body>
+</html>

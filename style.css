@@ -201,6 +201,84 @@ ul{
         cursor: pointer;
     }
 }
+
+.row2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+.single-product{
+    margin-top: 75px;
+}
+
+.single-product .col-2 img{
+    padding: 0;
+}
+
+.single-product .col-2{
+    padding: 20px;
+}
+
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.single-product input{
+    width: 50px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+input:focus{
+    outline: none;
+}
+
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn{
+    display: inline-block;
+}
+
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+}
+
 @media only screen and (max-width: 600px){
     .row{
         text-align: center;
