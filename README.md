@@ -9,6 +9,7 @@ HTML, CSS, Javascript, API database
 
 # Design Process:
 As a user, i want to ensure that i have an easy navigation through ordering stuff online. Another reason is also to ensure that the items is readily available 24/7. 
+
 # CREDITS
 content:
 media:

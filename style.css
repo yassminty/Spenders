@@ -98,11 +98,11 @@ p{
     padding:10px;
     min-width: 200px;
     margin-bottom: 50px;
-    transition: transform 0.5s;
+    transition: transform 0.4s;
 }
 
 .col-4 img{
-    width: 40%;
+    width: 75%;
 }
 
 .title{
@@ -123,5 +123,89 @@ h4{
 }
 
 .col-4:hover{
-    transform: translateY(-5px);
+    transform: translateY(-10px);
+}
+
+.footer{
+    background: pink;
+    color: black;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: black;
+}
+
+.footer h2{
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3{
+    min-width: 350px;
+    margin-bottom: 25px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-1 img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-col-2, .footer-col-3{
+    flex-basis: 10%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer hr{
+    border: none;
+    background: #000;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.menu{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
 }
