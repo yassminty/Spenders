@@ -257,6 +257,7 @@ input:focus{
     padding: 20px 0;
     margin: auto;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    overflow: hidden;
 }
 
 .form-container span{
@@ -273,10 +274,11 @@ input:focus{
 }
 
 .form-container form{
-    max-width: 300px;
+    max-width: 200px;
     padding: 0 20px;
     position: absolute;
-    top: 130px;
+    top: 90px;
+    transition: transform 0.5s;
 }
 
 form input{
@@ -292,10 +294,28 @@ form .btn{
     border: none;
     cursor: pointer;
     margin: 10px 0;
+    
 }
 
 form .btn:focus{
     outline: none;
+}
+
+#LoginForm{
+    left: -300px;
+}
+
+#RegForm{
+    left: 0;
+}
+
+form a{
+    font-size: medium;
+}
+
+.aboutus-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
 }
 
 @media only screen and (max-width: 600px){

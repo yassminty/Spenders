@@ -13,4 +13,4 @@ As a user, i want to ensure that i have an easy navigation through ordering stuf
 # CREDITS
 content:
 media:
-acknowledgements:
+acknowledgements: thank you to all our teachers and friends for the moral and mental support (especially mr donovan for teaching us id :>) github page:https://github.com/yassminty/Spenders

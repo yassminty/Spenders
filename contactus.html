@@ -37,22 +37,14 @@
                 <img src="Images/SPENDERS.png" width="100%">
                 <div class="form-container">
                     <div class="form-btn">
-                        <span onclick="login()">Login</span>
-                        <span onclick="register()">Register</span>
+                        <span onclick="submit()">Contact Form</span>
                     </div>
-                    <form id="LoginForm">
-                        <input type="text" placeholder="Username">
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="btn">Login</button>
-                        <a href="">Forgot Password</a>
-                    </form>
 
-                    <form id="RegForm">
-                        <input type="text" placeholder="Username">
+                    <form id="ContactForm">
+                        <input type="name" placeholder="Name">
                         <input type="email" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <input type="birthday" placeholder="Birthdate">
-                        <button type="submit" class="btn">Register</button>
+                        <input type="message" placeholder="message">
+                        <button type="submit" class="btn">Submit</button>
                     </form>
                 </div>
             </div>
@@ -102,22 +94,6 @@
             }
         }
     </script>
-    <script>
-        var LoginForm = document.getElementById("LoginForm");
-        var RegForm = document.getElementById("RegForm");
-
-
-        function register(){
-            RegForm.style.transform = "translateX(0px)";
-            LoginForm.style.transform = "translateX(0px)";
-        }
-        function login(){
-            RegForm.style.transform = "translateX(300px)";
-            LoginForm.style.transform = "translateX(300px)";
-        }
-        
-    </script>
-
 
 </body>
 </html>
