@@ -1,34 +1,49 @@
+/*barlow font*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap');
+/* rubik font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+
+
 *{
     margin: 0;
     padding:0;
-    box-sizing: boreder-box
+    box-sizing: border-box
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Rubik', sans-serif;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: 'Barlow';
+    text-align: center;
+    
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-nav{
-    flex: 1;
+
+.navigateul{
+    list-style: none;
+    background: #6C7B95;
+    padding: 0;
+    margin: 50px;
     text-align: right;
 }
-nav ul{
+
+.navigate li{
     display: inline-block;
-    list-style-type: none;
 }
-nav ul li{
-    display:inline-block;
-    margin-right: 20px;
-}
-a{
+
+.navigate a{
     text-decoration: none;
-    color: black;
+    color: #464159;
+    width: 100px;
+    display: block;
+    padding: 25px;
+    text-align: center;
 }
+
+.navigate a:hover{
+    background: #8BBABB;
+}
+
 p{
     color: black;
 }
@@ -71,7 +86,7 @@ p{
     background: #563434;
 }
 .header{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: lightblue;
 }
 .header .row{
     margin-top: 90px;

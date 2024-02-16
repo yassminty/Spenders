@@ -20,6 +20,6 @@ As a user, i want to ensure that i have an easy navigation through ordering stuf
 our contact page and account page may not be connected to the api database however everything is still working accordingly and an error will appear if you key in the wrong email
 
 # CREDITS
-content: making of the website: https://youtu.be/yQimoqo0-7g?si=mgO3Zc1kEzOhzS1d
+content: making of the website (body): https://youtu.be/yQimoqo0-7g?si=mgO3Zc1kEzOhzS1d
 media: all pictures were gotten from google images
 acknowledgements: thank you to all our teachers and friends for the moral and mental support (especially mr donovan for teaching us id :>) github page:https://github.com/yassminty/Spenders
