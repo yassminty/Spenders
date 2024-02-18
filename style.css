@@ -18,31 +18,13 @@ body {
     
 }
 
-.navigateul{
-    list-style: none;
-    background: #6C7B95;
+.nav{
     padding: 0;
-    margin: 50px;
-    text-align: right;
-}
+    font-weight: normal ;
+    color:black;
+    
 
-.navigate li{
-    display: inline-block;
 }
-
-.navigate a{
-    text-decoration: none;
-    color: lightcyan;
-    width: 100px;
-    display: block;
-    padding: 25px;
-    text-align: center;
-}
-
-.navigate a:hover{
-    background: lightgoldenrodyellow;
-}
-
 p{
     color: black;
 }
