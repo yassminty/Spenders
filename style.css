@@ -203,25 +203,24 @@ input:focus{
 
 .account-page{
     padding: 50px 0;
-    background: radial-gradient(#fff,#ffd6d6);
+    background: lightseagreen;
 }
 
 .form-container{
     background: #fff;
-    width: 300px;
+    width: 275px;
     height: 400px;
     position: relative;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 20px;
     margin: auto;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
-    overflow: hidden;
 }
 
 .form-container span{
     font-weight: bold;
     padding: 0 10px;
-    color: #555;
+    color: black;
     cursor: pointer;
     width: 100px;
     display: inline-block;
@@ -236,7 +235,6 @@ input:focus{
     padding: 0 20px;
     position: absolute;
     top: 90px;
-    transition: transform 0.5s;
 }
 
 form input{
@@ -257,10 +255,6 @@ form .btn{
 
 form .btn:focus{
     outline: none;
-}
-
-#LoginForm{
-    left: -300px;
 }
 
 #RegForm{

@@ -10,19 +10,12 @@ function menutoggle(){
     }
 }
 
-var LoginForm = document.getElementById("LoginForm");
 var RegForm = document.getElementById("RegForm");
 
 
 function register(){
     RegForm.style.transform = "translateX(0px)";
-    LoginForm.style.transform = "translateX(0px)";
 }
-function login(){
-    RegForm.style.transform = "translateX(300px)";
-    LoginForm.style.transform = "translateX(300px)";
-}
-
 
 
 var settings = {
@@ -41,39 +34,15 @@ var settings = {
     console.log(response);
   });
 
-  var jsondata = {"field1": "xyz","field2": "abc"};
-var settings = {
-  "async": true,
-  "crossDomain": true,
-  "url": "https://spendersshoppes-3fdc.restdb.io/rest/contact",
-  "method": "POST",
-  "headers": {
-    "content-type": "application/json",
-    "x-apikey": "65c83936c8b8253b470d9e1f",
-    "cache-control": "no-cache"
-  },
-  "processData": false,
-  "data": JSON.stringify(jsondata)
-}
+  var jsondata = {"username": "email","password": "birthday"};
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
 
-var settings = {
-    "async": true,
-    "crossDomain": true,
-    "url": "https://spendersshoppes-3fdc.restdb.io/rest/contact/(ObjectID)",
-    "method": "DELETE",
-    "headers": {
-      "content-type": "application/json",
-      "x-apikey": "65c83936c8b8253b470d9e1f",
-      "cache-control": "no-cache"
-    }
-  }
-  
-  $.ajax(settings).done(function (response) {
-    console.log(response);
+  fetch('https://spendersshoppes-3fdc.restdb.io/home/db/spendersshoppes-3fdc')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data); // Log the data to the console for testing
+    // You can handle the API response data here
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
   });
-
-  
