@@ -20,32 +20,6 @@ As a user, i want to ensure that i have an easy navigation through ordering stuf
 our contact page and account page may not be connected to the api database however everything is still working accordingly and an error will appear if you key in the wrong email
 
 # CREDITS
-content: making of the website (body): https://youtu.be/yQimoqo0-7g?si=mgO3Zc1kEzOhzS1d
+content: making of the website (body): https://youtu.be/yQimoqo0-7g?si=mgO3Zc1kEzOhzS1d , bootstrap references for header, footer and nav bar (https://getbootstrap.com/docs/5.3/components/) :>
 media: all pictures were gotten from google images
 acknowledgements: thank you to all our teachers and friends for the moral and mental support (especially mr donovan for teaching us id :>) github page:https://github.com/yassminty/Spenders
-
-
-.navigateul{
-    list-style: none;
-    background: #6C7B95;
-    padding: 0;
-    margin: 50px;
-    text-align: right;
-}
-
-.navigate li{
-    display: inline-block;
-}
-
-.navigate a{
-    text-decoration: none;
-    color: lightcyan;
-    width: 100px;
-    display: block;
-    padding: 25px;
-    text-align: center;
-}
-
-.navigate a:hover{
-    background: lightgoldenrodyellow;
-}
