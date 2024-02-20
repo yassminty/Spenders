@@ -11,14 +11,11 @@ function menutoggle(){
 }
 
 var RegForm = document.getElementById("register-form");
-
-
 function register(event){
     event.preventDefault();
 }
 
 RegForm.addEventListener('submit', register)
-
 var settings = {
   "method": "GET",
   "headers": {
@@ -50,3 +47,4 @@ fetch('https://spendersshoppes-3fdc.restdb.io/home/db/spendersshoppes-3fdc')
     .catch(error => {
         console.error('Error fetching data:', error);
     });
+

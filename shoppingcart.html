@@ -6,16 +6,16 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name="viewport" content="width=device-width">
         <title>Spenders</title>
+        <title>Shopping Cart JS</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">    
     </head>
-
     <body>
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                <a href="index.html"><img src="images/SPENDERS.png" width="125px"></a>
+                <a href="test.html"><img src="images/SPENDERS.png" width="125px"></a>
             </div>
             <ul class="nav justify-content-end">                  
                 <li class="nav-item">
@@ -39,30 +39,78 @@
               </ul>
             </div>
         </div>
-        <br>
-        <h1>Shopping Cart</h1>
+        <div class="app-container">
+          <div class="app-bg">
+              <div class="left-side"></div>
+              <div class="right-side"></div>
+          </div>
+          <main>
+              <div class="content">
+                  <div class="products-preview">
+                      <div class="products-container">
+                          <div class="product">
+                              <img src="Images/beanies.jpeg" width="275" height="275">
+                          </div>
+                          <div class="product">
+                              <img src="Images/dress.jpg" width="210" height="285">
+                          </div>
+                          <div class="product">
+                              <img src="Images/mens-jeans1.jpeg" width="250" height="285">
+                          </div>
+                      </div>
+                      <div class="more-details">
+                          <div class="see-more-btn">
+                                  <img src="Images/right-arrow.png" width="20" height="75">
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+          </main>
+      </div>
+      <div class="products-list">
+          <div class="products">
+              <!-- render products here -->
+          </div>
+          <div class="cart">
+              <div class="cart-header">
+                  <div class="column1">Item</div>
+                  <div class="column2">Item Price</div>
+                  <div class="column3">Item Count</div>
+              </div>
+              <div class="cart-items">
+                  <!-- render cart items here -->
+              </div>
+              <div class="cart-footer">
+                  <div class="subtotal">
+                      Subtotal (0 items): $0
+                  </div>
+                  <div class="checkout">
+                      Proceed to checkout
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <script>
+          const porductsListEl = document.querySelector(".products-list");
+          const seeMoreBtn = document.querySelector(".see-more-btn");
+  
+          seeMoreBtn.addEventListener('click', () => {
+              porductsListEl.scrollIntoView({behavior: "smooth"})
+          })
+      </script>
+  
+      <script src="products.js"></script>
+      <script src="app.js"></script>
 
         <div id="cart">
   <!-- Cart items will be displayed here -->
-        </div>
-<br>
-        <div id="products">
-            <div>
-                <img src="images/menstshirt.jpeg">
-                <h4>Black White Collared T-shirt</h4>
-                <p>$30.00</p>
-            </div>
-            <div>
-                <img src="images/dress1.jpg" height="280" width="210">
-                <h4>Off-Shoulder Pink Dress</h4>
-                <p>$24.00</p>
-            </div>
         </div>
 
         <script src="script.js"></script>
 
     <!--- footer------->
-    
     <br>
     <div class="card text-center">
         <div class="card-header">
